@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1829954880101058}
+  m_IsPrefabAsset: 1
+--- !u!1 &1829954880101058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4601220696181132}
+  - component: {fileID: 114138516210542488}
+  - component: {fileID: 114501472523967598}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4601220696181132
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829954880101058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 201.22, y: 560, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114138516210542488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829954880101058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3898c69163ce4e945bd98f2cf7cacad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loginParent: {fileID: 0}
+  registerParent: {fileID: 0}
+  loggedInParent: {fileID: 0}
+  loadingParent: {fileID: 0}
+  Login_UsernameField: {fileID: 0}
+  Login_PasswordField: {fileID: 0}
+  Register_UsernameField: {fileID: 0}
+  Register_PasswordField: {fileID: 0}
+  Register_ConfirmPasswordField: {fileID: 0}
+  LoggedIn_DataInputField: {fileID: 0}
+  LoggedIn_DataOutputField: {fileID: 0}
+  Login_ErrorText: {fileID: 0}
+  Register_ErrorText: {fileID: 0}
+  LoggedIn_DisplayUsernameText: {fileID: 0}
+--- !u!114 &114501472523967598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829954880101058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b676c1adddd7bb042b463ea3351ef603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Done: {fileID: 0}
+  LoginUI: {fileID: 0}
+  Style1: {fileID: 0}
+  PlayerPrefab: {fileID: 0}
+  PlayerMenuAnimation: {fileID: 0}

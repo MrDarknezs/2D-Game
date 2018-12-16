@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1fee646b61d91f14399aac180b225b00
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Universal Accreditation
+  fontNames:
+  - Universal Accreditation
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 153e0ffc580dfca4d982932b66cfb2e6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
