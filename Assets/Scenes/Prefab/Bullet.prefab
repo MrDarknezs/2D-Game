@@ -101,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   rb: {fileID: 50532032943730304}
+  bullet: {fileID: 1400113436554894}
+  damage: 30
 --- !u!212 &212432261856321466
 SpriteRenderer:
   m_ObjectHideFlags: 1
