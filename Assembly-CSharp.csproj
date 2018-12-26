@@ -178,6 +178,7 @@
     <Compile Include="Assets\Clean Title Transitions\Scripts\CTTDemoManager.cs" />
     <Compile Include="Assets\Database Control Free\Demos\C#\Scripts\DCF_DemoScene_ManagerScript_CSharp.cs" />
     <Compile Include="Assets\EnableLoadingStuff.cs" />
+    <Compile Include="Assets\LavaDeath.cs" />
     <Compile Include="Assets\Password Protector\Scripts\HiddenColor.cs" />
     <Compile Include="Assets\PlayerHealth.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
